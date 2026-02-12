@@ -78,3 +78,122 @@ MIT License
 
 GitHub: [@Tom-zep](https://github.com/Tom-zep)# production-management-system
 For manufacturing division 
+
+
+# Production Management System
+### Business-Oriented DX Project for Manufacturing
+
+---
+
+## 🚀 Business Impact
+
+This system was developed to replace Excel-based production and inventory planning in a manufacturing environment.
+
+### Key Results
+- Manual aggregation time reduced: **2 hours → 5 seconds (99.9% reduction)**
+- Estimated external development cost saved: **¥5–7 million**
+- Improved production leveling using coefficient of variation (CV)
+- Eliminated manual calculation errors
+- Enabled real-time decision-making via dashboard visualization
+
+---
+
+## 🏭 Project Overview
+
+An integrated production planning and inventory management system built using:
+
+- Microsoft Access (VBA)
+- Python (pandas, matplotlib, Plotly)
+- HTML/CSS/JavaScript (Chart.js)
+
+Designed and implemented over 10 months while working full-time in a manufacturing division.
+
+This project integrates business domain knowledge with system development and data analysis.
+
+---
+
+## 🧩 Core Functions
+
+### Sales Plan Management
+- Bulk import from Excel template
+- Historical version tracking
+- Automated change comparison with visual highlighting
+
+### Production Planning
+- Automatic conversion from sales plan
+- Version and revision management
+- Production leveling analysis (Coefficient of Variation)
+
+### Dashboard (HTML + Chart.js)
+- Factory workload visualization
+- KPI comparison vs previous version
+- Interactive filtering
+
+### Master Data Management
+- Product master
+- Person-in-charge master
+
+---
+
+## 📊 Technical Stack
+
+**Backend**
+- Microsoft Access
+- VBA
+
+**Data Analysis**
+- Python (pandas, matplotlib, Plotly)
+- Google Colab
+
+**Frontend**
+- HTML / CSS / JavaScript
+- Chart.js
+
+---
+
+## 📄 Documentation
+
+- Requirements Definition
+- Operation Manual
+- ER Diagram
+
+---
+
+## 🤖 Development Approach
+
+Developed using an AI-assisted development workflow (Claude) to accelerate prototyping and implementation.
+
+Focused on:
+- Business problem definition
+- Measurable impact
+- Maintainable structure
+- Data-driven decision support
+
+---
+
+## 🔮 Future Roadmap
+
+- Migration to SQL Server
+- API-based architecture
+- Rebuild using Python (Flask)
+- Cloud deployment
+
+---
+
+## ⏳ Development Period
+
+April 2024 – February 2025 (10 months)
+
+---
+
+## 📌 License
+
+MIT License
+
+---
+
+## 👤 Author
+
+Tom  
+Manufacturing DX | Process Improvement | Data-Driven Systems  
+GitHub: https://github.com/Tom-zep
