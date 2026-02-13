@@ -151,6 +151,36 @@ This project integrates business domain knowledge with system development and da
 
 ---
 
+## 📸 Screenshots
+
+### Main Menu
+![Main Menu](mainmenu.png)
+*System main menu with all available features*
+
+### KPI Dashboard
+![KPI Dashboard](01_kpi_dashboard.png)
+*Real-time KPI tracking with version comparison and interactive filtering*
+
+### Sales Plan Dashboard
+![Sales Plan](02_sales_plan.png)
+*Monthly sales planning with change tracking and comparison view*
+
+### Production Plan
+![Production Plan](03_production_plan.png)
+*Production planning data with version and revision management*
+
+### Product Master
+![Product Master](04_product_master.png)
+*Product master data management with factory assignment*
+
+### Leveling Analysis
+![Leveling Analysis](06_leveling_analysis.png.png)
+*Production leveling analysis with coefficient of variation and inventory simulation*
+
+> 📝 **Note**: All screenshots use dummy data to protect confidential information.
+
+---
+
 ## 📄 Documentation
 
 - Requirements Definition
