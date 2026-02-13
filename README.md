@@ -1,5 +1,9 @@
 # 生産管理システム (Production Management System)
 
+![VBA](https://img.shields.io/badge/VBA-Access-green)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![License](https://img.shields.io/badge/License-MIT-success)
+
 製造業向けの生産計画・在庫管理システム。Access VBA + Python + HTML/JavaScriptで構築。
 
 ## 概要
