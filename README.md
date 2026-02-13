@@ -154,7 +154,7 @@ This project integrates business domain knowledge with system development and da
 ## 📸 Screenshots
 
 ### Main Menu
-![Main Menu](mainmenu.png)
+![Main Menu](00_mainmenu.png)
 *System main menu with all available features*
 
 ### KPI Dashboard
