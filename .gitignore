@@ -1,0 +1,12 @@
+# Access Database Files
+*.accdb
+*.mdb
+*.laccdb
+
+# Backup Files
+*_backup.*
+*.bak
+
+# System Files
+.DS_Store
+Thumbs.db
