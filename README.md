@@ -219,7 +219,7 @@ This project integrates business domain knowledge with system development and da
 *Production leveling analysis with coefficient of variation and inventory simulation*
 
 ### 🆕 Trendline Dashboard
-![Trendline Dashboard](07_trendline_dashboard.png)
+![Trendline Dashboard](07_trendline_dashboard.mp4)
 *Advanced dashboard with trendlines, moving averages, target line, and drill-down*
 
 > 📝 **Note**: All screenshots use dummy data to protect confidential information.
