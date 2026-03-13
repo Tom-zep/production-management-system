@@ -86,7 +86,33 @@ AI（Claude）を活用しながら、業務知識とシステム開発スキル
 - クラウド化
 
 ## 更新履歴
-### 🚀 アップデート概要 (2026-03-05)
+### v2.3 (2026-03-13)
+#### 負荷金額 計画 vs 実績 乖離検定ダッシュボード
+
+**概要**
+月次の計画負荷金額と実績負荷金額の差が「偶然のブレ」なのか「構造的な問題」なのかを、対応のある t 検定（paired t-test）で統計的に判定するダッシュボードを追加。経営層向けに「感覚」ではなく「数値的根拠」でコスト超過を説明できる。
+
+**技術的なポイント**
+- `scipy.stats.ttest_rel` で対応のある t 検定を実装
+- `pandas` で月次乖離額・平均・標準偏差を集計
+- 95% 信頼区間を自動計算（`stats.t.interval`）
+- p値に応じて判定バナーを動的に切り替え（有意差あり／なし）
+- Chart.js で計画 vs 実績の折れ線・乖離棒グラフを HTML に直接埋め込み
+
+**新機能**
+- 月次 計画 vs 実績 折れ線グラフ
+- 月次 乖離額 棒グラフ（超過：赤／削減：緑）
+- t 検定 統計サマリーテーブル（t統計量・p値・95%信頼区間）
+- 判定バナー（構造的な乖離あり ⚠️ ／ 偶然の範囲内 ✅）
+- KPI カード（平均計画・平均実績・平均乖離額・p値）
+
+**実行方法**
+```bash
+pip install pandas scipy numpy
+python generate_cost_ttest_dashboard.py
+
+
+###v2.2 アップデート概要 (2026-03-05)
 Accessからデータを抽出し、Pythonによる統計解析を経て、意思決定用のHTMLダッシュボードを自動生成するパイプラインを構築しました。455品番、5,460レコードの月次データを処理し、属人的な「勘」を「データドリブンな在庫管理」へと変革します。
 
 ### 🛠 技術的なポイント
@@ -281,6 +307,11 @@ This project integrates business domain knowledge with system development and da
 ![09_inventory_optimization_dashboard](09_inventory_optimization_dashboard.mp4)
 *45-second demo: Automated Seasonality Indexing & Inventory Guardrails.*
 
+## 🆕 v2.3: Statistical Cost Variance Analysis (t-test)
+![Analysis Dashboard](image_cac93d.png)
+
+> **"From Intuition to Evidence"**
+> This update visualizes the structural gap between planned and actual costs using paired t-tests.
 
 > 📝 **Note**: All screenshots use dummy data to protect confidential information.
 
